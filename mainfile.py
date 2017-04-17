@@ -15,7 +15,7 @@ import time
 
 start_time = time.clock()
 
-mu1 = np.zeros([1,1499])
+mu1 = np.zeros([1,999])
 mu2 = np.append(mu1,1)
 mu3 = np.ndarray.tolist(mu2)
 data = vmg.randVMF(10000,mu3,1)
